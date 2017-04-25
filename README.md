@@ -1,6 +1,6 @@
 # npmdoc-xmldom
 
-#### api documentation for  [xmldom (v0.1.27)](https://github.com/jindw/xmldom)  [![npm package](https://img.shields.io/npm/v/npmdoc-xmldom.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-xmldom) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-xmldom.svg)](https://travis-ci.org/npmdoc/node-npmdoc-xmldom)
+#### basic api documentation for  [xmldom (v0.1.27)](https://github.com/jindw/xmldom)  [![npm package](https://img.shields.io/npm/v/npmdoc-xmldom.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-xmldom) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-xmldom.svg)](https://travis-ci.org/npmdoc/node-npmdoc-xmldom)
 
 #### A W3C Standard XML DOM(Level2 CORE) implementation and parser(DOMParser/XMLSerializer).
 
@@ -100,7 +100,8 @@
     "scripts": {
         "test": "proof platform win32 && proof test */*/*.t.js || t/test"
     },
-    "version": "0.1.27"
+    "version": "0.1.27",
+    "bin": {}
 }
 ```
 
